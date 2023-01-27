@@ -13,7 +13,7 @@ Crete `.env` file inside root project derrictory
 
 Add PORT value to `.env` file
 
-Exaple:
+Example:
 
 ```
 PORT="5000"
