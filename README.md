@@ -1,6 +1,6 @@
 # CRUD API (Node.js) 📬
 
-The Marvel project is a React application that uses the Marvel API to provide a database of Marvel Comics characters and their information, such as their name, description, and image
+The CRUD API project allows clients to perform CRUD operations on a database of users. Specifically, clients can create new users, retrieve user by id, update users, and delete users from the database
 
 ### ⭐ Application features: 
 
