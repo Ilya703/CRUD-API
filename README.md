@@ -4,7 +4,7 @@ The Marvel project is a React application that uses the Marvel API to provide a 
 
 ### 🚀 Configutarion (optional)
 
-Crete `.env` file inside env directory
+Create `.env` file inside env directory
 
 Add PORT value to `.env` file
 
