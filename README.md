@@ -1,32 +1,42 @@
-# CRUD API
+# CRUD API (Node.js) 🦸‍♂️
 
+The Marvel project is a React application that uses the Marvel API to provide a database of Marvel Comics characters and their information, such as their name, description, and image
 
-## Installing
+### 🚀 Configutarion (optional)
 
-```bash
-npm install
-```
-
-## Configutarion (optional)
-
-Crete `.env` file inside root project derrictory
+Crete `.env` file inside env directory
 
 Add PORT value to `.env` file
 
 Example:
 
 ```
-PORT="5000"
+PORT=3000
 ```
 
-## Running
+### 🚀 Installation
 
-Use following commands:
+1. Clone the repository:
 
-`npm run start:dev` - to run application in development mode
+```cmd
+git clone https://github.com/Ilya703/CRUD-API.git
+```
 
-`npm run start:prod` - to run application in production mode
+2. Install the dependencies:
 
-`npm run start:multi` - to run application with horizontal scaling and load balancer
+```cmd
+npm install
+```
 
-`npm run test` - to test application
+3. Start the application:
+
+```
+npm run start:dev   (to run application in development mode)
+
+npm run start:prod   (to run application in production mode)
+```
+
+### 🛠️ Built With:
+
+* JavaScript
+* Node.js
