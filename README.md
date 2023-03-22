@@ -1,12 +1,50 @@
-# CRUD API (Node.js) 🦸‍♂️
+# CRUD API (Node.js) 📬
 
 The Marvel project is a React application that uses the Marvel API to provide a database of Marvel Comics characters and their information, such as their name, description, and image
 
-### 🚀 Configutarion (optional)
+### ⭐ Application features: 
 
-Create `.env` file inside env directory
+* GET-request
 
-Add PORT value to `.env` file
+  * `/api/users` - get all users from database
+
+  * `/api/users/{id}` -  to get user by id
+
+* POST-request
+
+  * `/api/create-user` - to create a new user, you need to provide username, age and hobbies in JSON format
+
+    Example: 
+
+    ```
+    {
+        "username": "Jay",
+        "age": "25",
+        "hobbies": "['swimming', 'dancing']"
+    }
+    ```
+
+* PUT-request
+
+  * `/api/replace-user/{id}` - to replace user by id with new data, you need to provide username, age and hobbies in JSON format
+
+    Example: 
+
+    ```
+      {
+          "username": "Jane",
+          "age": "27",
+          "hobbies": "['singing']"
+      }
+     ```
+
+* DELETE-request
+
+  * `/api/delete-user/{id}` -  to delete user by id
+
+### 🔑 Configuration (optional)
+
+Create `.env` file inside env directory and add PORT value to it
 
 Example:
 
